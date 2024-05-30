@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+    <header>
+            <div id="logo">
+                <table>
+                    <tr>
+                        <td>
+                            <a href="./kezdőlap.html"><img src="./images/logo.jpg" alt="logo"></a>
+                        </td>
+                        <td>
+                            <a href="./kezdőlap.html"><h3>Bogy Kozmetika, Fodrászat és Szépség Shop</h3></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table id="icons">
+                <tr>
+                    <td>
+                        <label for="szöveg">
+                            <img src="./images/search.png" alt="keresés" height="75" width="75"/>
+                        </label>
+                    </td>
+                    <td>
+                        <a href="#kapcsolatok">
+                            <img src="./images/person.png" alt="keresés" height="75" width="75">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="kosár.html">
+                            <img src="./images/cart.png" alt="keresés" height="75" width="75"/>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+    </header>
+    <div class="js-container"></div>
+    <form class="js-form">
+        <div class="container">
+            <div class="input">
+                <label for="name">Termék neve:</label>
+                <input type="text" name="termék neve" id="name">
+            </div>
+            <div class="input">
+                <label for="price">Termék ára:</label>
+                <input type="number" name="ár" id="price">
+            </div>
+            <div class="center">
+                <input type="checkbox" name="stock" id="isInStock">
+                <label for="stock">Van készleten?</label>
+            </div>
+            <div class="center">
+                <input type="button" value="Küldés" id="button">
+            </div>
+        </div>
+    </form>
+    <div class="js-change"></div>
+    <script type="module" src="./productChanges.js"></script>
+</body>
+</html>

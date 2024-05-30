@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kozmetika</title>
+    <link rel="stylesheet" href="./foko.css">
+</head>
+<body id="koz">
+    <header>
+        <div id="logo">
+            <table>
+                <tr>
+                    <td><a href="./kezdőlap.html"><img src="./images/logo.jpg" alt="logo" ></a></td>
+                    <td><a href="./kezdőlap.html"><h3>Bogy Kozmetika, Fodrászat és Szépség Shop</h3></a></td>
+                </tr>
+            </table>
+        </div>
+        <table id="icons">
+            <tr>
+                <td><label for="keresés"><img src="./images/search.png" alt="keresés" height="75" width="75"></label></td>
+                <td><a href=""><img src="./images/person.png" alt="keresés" height="75" width="75"></a></td>
+                <td><a href="./kosár.html"><img src="./images/cart.png" alt="keresés" height="75" width="75"></a></td>
+            </tr>
+        </table>
+    </header>
+    <br>
+    <div class="koflex">
+        <table cellpadding="5" class="table1">
+            <tr>
+                <th colspan="2">Smink</th>
+                <th colspan="2">Szempilla</th>
+            </tr>
+            <tr>
+                <th>Alapvető teljes smink</th>
+                <th>1500Ft</th>
+                <th>3D Szempilla építés</th>
+                <th>12.000Ft-tól</th>
+            </tr>
+            <tr>
+                <th>Extra smink</th>
+                <th>2200Ft</th>
+                <th>Duplázott Szempilla építés</th>
+                <th>18.000Ft-tól</th>
+            </tr>
+            <tr>
+                <th>Plusz smink</th>
+                <th>500Ft</th>
+                <th>Egyéb Szempilla építés</th>
+                <th>10.000-23.000Ft-tól</th>
+            </tr>
+        </table>
+        <table cellpadding="5" class="table2">
+            <tr>
+                <th colspan="4" >Gyanta</th>
+            </tr>
+            <tr>
+                <th colspan="2">Női</th>
+                <th colspan="2">Férfi</th>
+            </tr>
+            <tr>
+                <th>Női bajusz</th>
+                <th>1000Ft</th>
+                <th>Férfi bajusz</th>
+                <th>1000Ft</th>
+            </tr>
+            <tr>
+                <th>Kar gyanta</th>
+                <th>1500Ft</th>
+                <th>Kar gyanta</th>
+                <th>1500Ft</th>
+            </tr>
+            <tr>
+                <th>Teljes kar gyanta</th>
+                <th>1700Ft</th>
+                <th>Teljes kar gyanta</th>
+                <th>1700Ft</th>
+            </tr>
+            <tr>
+                <th>Láb gyanta</th>
+                <th>2000Ft</th>
+                <th>Láb gyanta</th>
+                <th>1700Ft</th>
+            </tr>
+            <tr>
+                <th>Comb gyanta</th>
+                <th>1800Ft</th>
+                <th>Teljes láb gyanta</th>
+                <th>2100Ft</th>
+            </tr>
+            <tr>
+                <th>Hónaj gyanta</th>
+                <th>1200Ft</th>
+                <th>Hát gyanta</th>
+                <th>1200Ft</th>
+            </tr>
+            <tr>
+                <th>Bikinivonal gyanta</th>
+                <th>2000Ft</th>
+                <th>&nbsp</th>
+                <th>&nbsp</th>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="ipfoglalas">
+        <div class="ip">
+            <label for="ipkn">keresztnév &nbsp;</label>
+            <input type="text" id="ipkn">
+        </div>
+        <div class="ip">
+            <label for="ipvn">vezetéknév &nbsp;</label>
+            <input type="text" id="ipvn">
+        </div>
+        <div class="ip">
+            <label id="ipemail">e-mail &nbsp;</label>
+            <input type="email" id="ipemail" placeholder="példa@e-mail.hu">
+        </div>
+        <div class="ip">
+            <label for="ipph">telefonszám &nbsp;</label>
+            <input type="number" id="ipph" placeholder="+36 20 123 4567">
+        </div>
+        <div class="ip">
+            <label for="ipdate">időpont &nbsp;</label>
+            <input type="date" id="ipdate">
+        </div>
+        <button class="button-75" role="button">
+            <span class="text">Küldés</span>
+        </button>
+        <div class="radioko">
+            <div>
+                <input type="checkbox" name="smink" id="smink">
+                <label for="smink">Smink</label>
+            </div>
+            <div>
+                <input type="checkbox" name="hajvágás" id="Szempilla">
+                <label for="Szempilla">Szempilla</label>
+            </div>
+            <div>
+                <input type="checkbox" name="hajfestés" id="gyanta">
+                <label for="gyanta">Gyantászás</label>
+                <div>
+                    <input type="radio" name="gy" id="n">
+                    <label for="n">női</label>
+                </div>
+                <div>
+                    <input type="radio" name="gy" id="f">
+                    <label for="f">Férfi</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

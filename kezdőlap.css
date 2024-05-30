@@ -1,0 +1,159 @@
+body {
+    height: 100dvh;
+    background-color: #e6467f;
+    font-size: 21px;
+    margin: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+p {
+    margin: 5px;
+}
+/*header*/
+header {
+    padding-bottom: 10px;
+    border-bottom: solid #60c 5px;
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    color: #60c;
+}
+#logo {
+    width: 420px; 
+    height: 100px; 
+    border: 1px; 
+    overflow: ˇ"hidden"
+}
+#icons tr td {
+    padding: 10px;
+}
+#logo img {
+    height: px;
+    width: 100px;
+}
+/*header vége*/
+/*keresősáv*/
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+.szöveg {
+    width: 260px;
+    margin-top: 5px;
+    border-radius: 8px;
+    width: 300px;
+    height: 25px;
+}
+.gomb {
+    position: relative;
+    right: 30px;
+    width: 65px;
+    color: #60c;
+    background-color: #e6467f;
+    border-radius: 15px;
+    height: 31px;
+}
+.gomb:hover {
+    background-color: #60c;
+    color: #e6467f;
+    transition-duration: 0.7s;
+    box-shadow: 2px 2px;
+}
+/*keresősáv vége*/
+/*főoldal lista*/
+.lista {
+    width: 200px;
+}
+.lista li {
+    list-style-type: none;
+    padding: 2px;
+    width: 200px;
+}
+/*főoldal lista vége*/
+/*main adatok*/
+.main1 {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    bottom: 210px;
+}
+.main2 img {
+    width: 28px;
+}
+.main2 p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+/*main adatok vége*/
+/*fő foko*/
+.foko {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 130px;
+}
+.foko-img {
+    height: 90px;
+}
+/*fő foko vége*/
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 4px solid #60c;
+}
+.item {
+    padding: 5px 20px;
+    margin: 5px 20px;
+    text-align: center;
+}
+/*footer vége*/
+/*megrendelés html*/
+#megrendelés {
+    background-color: #972CCA;
+    padding: 10px 5px;
+    width: 800px;
+    margin: auto;
+}
+#doboz {
+    padding: 5px;
+    margin: 1px;
+    border-style: groove;
+    border: 5px;
+    border-color: red;
+}
+#email {
+    margin-left: 40px;
+}
+#irányítószám {
+    margin-left: 20px;
+}
+#város {
+    margin-left: 80px;
+}
+#utca {
+    margin-left: 15px;
+}
+#város2 {
+    margin-left: 60px;
+}
+/*megrendelés html vége*/
+/*kosár*/
+#kosártábla {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+#kosártábla thead {
+    border-color: #60c;
+    border-style: solid;
+    border-width: 3px;
+}
+/*kosár vége*/

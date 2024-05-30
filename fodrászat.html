@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fodrászat</title>
+    <link rel="stylesheet" href="./foko.css">
+</head>
+<body id="fod">
+    <header>
+        <div id="logo">
+            <table>
+                <tr>
+                    <td><a href="./kezdőlap.html"><img src="./images/logo.jpg" alt="logo" ></a></td>
+                    <td><a href="./kezdőlap.html"><h3>Bogy Kozmetika, Fodrászat és Szépség Shop</h3></a></td>
+                </tr>
+            </table>
+        </div>
+        <table id="icons">
+            <tr>
+                <td><label for="keresés"><img src="./images/search.png" alt="keresés" height="75" width="75"></label></td>
+                <td><a href="#kapcsolatok"><img src="./images/person.png" alt="keresés" height="75" width="75"></a></td>
+                <td><a href="./kosár.html"><img src="./images/cart.png" alt="keresés" height="75" width="75"></a></td>
+            </tr>
+        </table>
+    </header>
+    <br>
+    <table cellpadding="5" class="table">
+        <tr>
+            <th colspan="2">Női hajvágás</th>
+            <th colspan="2">Férfi hajvágás</th>
+            <th colspan="2">Haj festés</th>
+            <th colspan="2">Extrák</th>
+        </tr>
+        <tr>
+            <th>Hajvágás</th>
+            <th>3500Ft-tól</th>
+            <th>Hajvágás</th>
+            <th>3000Ft-tól</th>
+            <th>Rövid hajfestés</th>
+            <th>3200Ft</th>
+            <th>Haj mosás</th>
+            <th>700Ft</th>
+        </tr>
+        <tr>
+            <th>Igazítás</th>
+            <th>1700Ft-tól</th>
+            <th>Igazítás</th>
+            <th>1700Ft-tól</th>
+            <th>Hosszú hajfestés</th>
+            <th>3800Ft</th>
+            <th>Haj szárítás</th>
+            <th>900Ft-tól</th>
+        </tr>
+        <tr>
+            <th>Plusz</th>
+            <th>500Ft-tól</th>
+            <th>Plusz</th>
+            <th>500Ft-tól</th>
+            <th>Hajvégfestés</th>
+            <th>1500Ft</th>
+            <th>Hajvasalás</th>
+            <th>1200Ft</th>
+        </tr>
+        <tr>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>&nbsp</th>
+            <th>Egyéb</th>
+            <th>2000Ft-tól</th>
+            <th>Plusz</th>
+            <th>500Ft-tól</th>
+        </tr>
+    </table>
+    <br>
+    <div id="ipfoglalas">
+        <div class="ip">
+            <label for="ipkn">keresztnév &nbsp;</label>
+            <input type="text" id="ipkn">
+        </div>
+        <div class="ip">
+            <label for="ipvn">vezetéknév &nbsp;</label>
+            <input type="text" id="ipvn">
+        </div>
+        <div class="ip">
+            <label id="ipemail">e-mail &nbsp;</label>
+            <input type="email" id="ipemail" placeholder="példa@e-mail.hu">
+        </div>
+        <div class="ip">
+            <label for="ipph">telefonszám &nbsp;</label>
+            <input type="number" id="ipph" placeholder="+36 20 123 4567">
+        </div>
+        <div class="ip">
+        <label for="ipdate">időpont &nbsp;</label>
+        <input type="date" id="ipdate">
+        </div>
+        <button class="button-75" role="button">
+            <span class="text">Küldés</span>
+        </button>
+        <div class="radiofo">
+            <div>
+                <input type="radio" name="hajvágás" id="A">
+                <label for="A">Női hajvágás</label>
+            </div>
+            <div>
+                <input type="radio" name="hajvágás" id="B">
+                <label for="B">Férfi hajvágás</label>
+            </div>
+            <div>
+                <input type="checkbox" name="hajfestés" id="hajfestés">
+                <label for="hajfestés">Hajfestés</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

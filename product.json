@@ -1,0 +1,26 @@
+[
+    {
+        "id": "idGenerator()",
+        "name": "hajlakk",
+        "price": 2000,
+        "isInStock": true
+    },
+    {
+        "id": "idGenerator()",
+        "name": "hajkrém",
+        "price": 2150,
+        "isInStock": false
+    },
+    {
+        "id": "idGenerator()",
+        "name": "sampon",
+        "price": 1190,
+        "isInStock": true
+    },
+    {
+        "id": "idGenerator()",
+        "name": "kenőcs",
+        "price": 1190,
+        "isInStock": true
+    }
+]

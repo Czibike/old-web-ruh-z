@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megrendelés</title>
+    <link rel="stylesheet" href="./kezdőlap.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="./kezdőlap.html">
+                <table>
+                    <tr>
+                        <td><img src="./images/logo.jpg" alt="logo" height="100px" width="100px"></td>
+                        <td><h3>Bogy Kozmetika, Fodrászat és Szépség Shop</h3></td>
+                    </tr>
+                </table>
+            </a>
+        </div>
+    </header>
+    <br>
+    <div id="megrendelés">
+        <div id="doboz">
+            <div>
+                <label for="keresztnév">Keresztnév:&nbsp;</label>
+                <input type="text" id="keresztnév">
+            </div>
+            <br>
+            <div>
+                <label for="vezetéknév">Vezetéknév:&nbsp;</label>
+                <input type="text" id="vezetéknév">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail:&nbsp;</label>
+                <input type="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="telefonszám">Telefonszám:</label>
+                <input type="tel" id="telefonszám" value="" autocomplete="off" placeholder="+36 20 123 4567">
+            </div>
+        </div>
+        <br>
+        <div id="doboz">
+            <div id="szállítás">Számlázási cím</div>
+            <br>
+            <div>
+                <input type="checkbox" id="számla">
+                <label for="számla">A számlát jogi személy, vállalkozás nevére kérem.</label>
+            </div>
+            <br>
+            <div>
+                <label for="szn">Számlázási név:&nbsp;</label>
+                <input type="text" id="szn">
+            </div>
+            <br>
+            <div>
+                <label for="irányítószám">Irányítószám:&nbsp;</label>
+                <input type="number" id="irányítószám" placeholder="0000">
+            </div>
+            <br>
+            <div>
+                <label for="város">Város:&nbsp;</label>
+                <input type="text" id="város">
+            </div>
+            <br>
+            <div>
+                <label for="utca">Utca/házszám:&nbsp;</label>
+                <input type="text" id="utca">
+            </div>
+        </div>
+        <br>
+        <div id="doboz">
+            <div id="szállítás">Szállítási cím</div>
+            <br>
+            <div>
+                <input type="checkbox" id="szál.nok">
+                <label for="szál.nok">Megegyezik a számlázási címemmel</label>
+            </div>
+            <div>
+                <input type="checkbox" id="szál.ok">
+                <label for="szál.ok">Szállítási cím megadása</label>
+            </div>
+            <br>
+            <div>
+                <label for="szn2">Szállítási név:&nbsp;</label>
+                <input type="text" id="szn2">
+            </div>
+            <br>
+            <div>
+                <label for="irányítószám2">Irányítószám:&nbsp;</label>
+                <input type="number" id="irányítószám2" placeholder="0000">
+            </div>
+            <br>
+            <div>
+                <label for="város2">Város:&nbsp;</label>
+                <input type="text" id="város2">
+            </div>
+            <br>
+            <div>
+                <label for="utca2">Utca/házszám:</label>
+                <input type="text" id="utca2">
+            </div>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="hírlevél">
+            <label for="hírlevél">Feliratkozom a hírlevélre!</label>
+        </div>
+        <div>
+            <input type="checkbox" id="ászf">
+            <label for="ászf">Elolvastam és elfogadom az <a href="./ászf.html">Adatvédelmi irányelveket és az Általános Szerződési Feltételeket</a></label>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="küldés">
+        </div>
+    </div>
+</body>
+</html>
